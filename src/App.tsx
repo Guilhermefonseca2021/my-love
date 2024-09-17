@@ -32,10 +32,7 @@ export default function App() {
           )}
           {isPlaying ? (
           <div className="">
-            <video className="w-screen " width="320" height="20" controls>
-              <source src="path_to_your_video.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/-yp_sV6SUl8?si=9a-0sICAylfsAtvo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
             <button
               onClick={showVideo}
               className=" p-2 bg-blue-500 text-white rounded"
