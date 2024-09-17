@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  background: url("./assets/mylovepng.jpeg") no-repeat center/cover fixed;
+  margin: 0;
+  height: 100vh;
+}
